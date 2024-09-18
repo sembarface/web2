@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>САМЫЙ КРУТОЙ В МИРЕ САЙТ</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="kotyara.jpg" alt="Котяра">
+        <nav class="menu">
+                <a href ="#hiper">Список гиперссылок</a><span> | </span>
+                <a href ="#tabl">Таблица</a><span> | </span>
+                <a href ="#forma">Форма</a>
+        </nav>
+        <div class="nazvanie">
+            <h1>САМЫЙ КРУТОЙ В МИРЕ САЙТ</h1>
+        </div>
+    </header>
+    <div class="hiper" id="hiper">
+        <ul>
+            <li><a href="http://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ</a></li>
+            <li><a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ https</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">
+                <img src="kotyara.jpg" alt="Котяра" height="100">
+            </a></li>
+            <li><a href="dva.html">ВНУТРЕННЯ ССЫЛКА</a></li>
+            <li><a href="#important">Ссылка на важный фрагмент текущей страницы</a></li>
+            <li><a href="dva.html?ip=12345&pp=54321&op=228">Ссылка с 3 параметрами url</a></li>
+            <li><a href="dva.html?id=666">Ссылка с параметром id</a></li>
+            <li><a href="./dva.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/tri.html">Страница в каталоге about</a></li>
+            <li>
+                <p>
+                    Да, <a href="https://en.wikipedia.org/wiki/Wolf">волк</a> слабее льва и тигра,
+                    но в цирке <a href="https://en.wikipedia.org/wiki/Wolf">волк</a> не выступает
+                </p>
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Capybara#Description">Физиологические параметры капибары</a></li>
+            <li>
+                <span>Ссылки из прямоугольных и круглых областей</span><br>
+                <map name="map0">
+                    <area shape="rect" alt="Прямоугольная область 1" coords="0,0,402,42" href="#area1">
+                    <area shape="rect" alt="Прямоугольная область 2" coords="0,42,132,204" href="#area2">
+                    <area shape="circle" alt="Круглая область" coords="180,100,90" href="#area3">
+                    <area shape="rect" alt="Прямоугольная область 3" coords="0,0,402,204" href="#area4">
+                </map>
+                <img src="kotyara.jpg" width="402" height="204" usemap="#map0" alt="Котяра">
+            </li>
+            <li><a href="#">Ссылка с пустым href</a></li>
+            <li><a href="#">Ссылка без href</a></li>
+            <li><a href="https://www.kubsu.ru/" rel="nofollow">Запрещен переход поисковикам</a></li>
+            <li><a href="https://www.kubsu.ru/" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+            <li>
+                <ol>
+                    <li><a href="index.html" title="Первая">Первая</a></li>
+                    <li><a href="index.html" title="Вторая">Вторая</a></li>
+                    <li><a href="index.html" title="Третья">Третья</a></li>
+                </ol>
+            </li>
+            <li><a href="ftp://username:password@ftp.sobaka.com/path/to/file">Ссылка на файл на сервере FTP с авторизацией</a></li>
+        </ul>
+    </div>
+    <div class="tabl" id="tabl">
+        <table>
+            <caption>Значения тригонометрических функций</caption>
+            <thead>
+                <tr>
+                    <th>Функция</th>
+                    <th>Значение (0)</th>
+                    <th>Значение (π/6)</th>
+                    <th>Значение (π/3)</th>
+                    <th>Значение (π/2)</th>
+                    <th>Значение (π)</th>
+                    <th>Значение (3π/2)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sin(x)</td>
+                    <td>0</td>
+                    <td>1/2</td>
+                    <td>√3/2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>cos(x)</td>
+                    <td>1</td>
+                    <td>√3/2</td>
+                    <td>1/2</td>
+                    <td>0</td>
+                    <td>-1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>tan(x)</td>
+                    <td>0</td>
+                    <td>1/√3</td>
+                    <td>√3</td>
+                    <td>∞</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>cot(x)</td>
+                    <td>∞</td>
+                    <td>√3</td>
+                    <td>1/√3</td>
+                    <td>0</td>
+                    <td>∞</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>csc(x)</td>
+                    <td>∞</td>
+                    <td>2</td>
+                    <td>2/√3</td>
+                    <td>1</td>
+                    <td>∞</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>sec(x)</td>
+                    <td>1</td>
+                    <td>2/√3</td>
+                    <td>2</td>
+                    <td>∞</td>
+                    <td>-1</td>
+                    <td>∞</td>
+                </tr>
+                <tr>
+                    <td>----></td>
+                    <td colspan="6">Вот такие пироги</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="forma" id="forma">
+        <h1>Форма</h1>
+        <form action="/" method="POST">
+            <label for="field-name-1">
+                ФИО:<br>
+                <input id="field-name-1" name="field-name-1" placeholder="Иванов Иван Иванович" required>
+            </label><br>
+            <label for="phone">
+                Телефон:<br>
+                <input id="phone" type="tel" name="phone" placeholder="+7 (918) 123-45-67" required>
+            </label><br>
+            <label for="field-email">
+                Электронная почта:<br>
+                <input id="field-email" name="field-email" type="email" placeholder="ogurec@example.com" required>
+            </label><br>
+            <label for="field-date">
+                Дата рождения:<br>
+                <input id="field-date" name="field-date" value="2024-01-01" type="date" required>
+            </label><br>
+
+                Выберите пол:<br>
+                <label for="male">
+                    <input id="male" type="radio" name="radio-group-1" value="Мужской" required> Мужской
+                </label><br>
+                <label for="female">
+                    <input id="female" type="radio" name="radio-group-1" value="Женский"> Женский
+                </label><br>
+                <label for="other">
+                    <input id="other" type="radio" name="radio-group-1" value="Другое"> Другое)))
+                </label><br>
+            <label for="field-lang">
+                Любимый язык программирования:<br>
+                <select id="field-lang" name="field-lang" required>
+                    <option value="" disabled selected>Выберите язык</option>
+                    <option value="Pascal">Pascal</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Haskell">Haskell</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Scala">Scala</option>
+                </select>
+            </label><br>
+            <label for="field-manytext">
+                Биография:<br>
+                <textarea id="field-manytext" name="fiel-manytext" placeholder="Ваша биография" required></textarea>
+            </label><br>
+            <label for="check">
+                <input id="check" type="checkbox" name="check" required>
+                С контрактом ознакомлен(а)
+            </label><br>
+            <input type="submit" name="save" value="Сохранить">
+        </form>
+    </div>
+    <h1 id="important">МЕНЯ ЗОВУТ ВОЛОДЯ</h1>
+    <footer class="page-footer">
+        <span>© Владимир Хачатурян</span>
+    </footer>
+</body>
+
+</html>
